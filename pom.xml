@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.mocreates</groupId>
+    <groupId>io.github.mocreates</groupId>
     <artifactId>sequence</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -38,7 +38,7 @@
                 <version>1.35</version>
             </dependency>
             <dependency>
-                <groupId>com.github.mocreates</groupId>
+                <groupId>io.github.mocreates</groupId>
                 <artifactId>uid-generator</artifactId>
                 <version>${project.version}</version>
             </dependency>

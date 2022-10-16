@@ -1,4 +1,4 @@
-package com.github.mocreates.util;
+package io.github.mocreates.util;
 
 
 import java.util.function.Supplier;

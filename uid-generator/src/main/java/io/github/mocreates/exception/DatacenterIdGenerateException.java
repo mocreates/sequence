@@ -13,37 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.mocreates.util;
-
+package io.github.mocreates.exception;
 
 /**
- * StringUtils
- *
  * @author Qimiao Chen
- * @date 2022-10-15 11:09
+ * @date 2022-10-15 13:53
  **/
-public abstract class StringUtils {
+public class DatacenterIdGenerateException extends RuntimeException {
 
-
-    public static boolean isNotBlank(final CharSequence cs) {
-        return !isBlank(cs);
+    public DatacenterIdGenerateException(String message) {
+        super(message);
     }
 
+    public DatacenterIdGenerateException() {
 
-    public static boolean isBlank(final CharSequence cs) {
-        final int strLen = length(cs);
-        if (strLen == 0) {
-            return true;
-        }
-        for (int i = 0; i < strLen; i++) {
-            if (!Character.isWhitespace(cs.charAt(i))) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public static int length(final CharSequence cs) {
-        return cs == null ? 0 : cs.length();
     }
 }

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.mocreates.config;
+package io.github.mocreates.config;
 
-import com.github.mocreates.util.Assert;
+import io.github.mocreates.util.Assert;
 
 /**
  * 默认的 SequenceConfig 配置方式

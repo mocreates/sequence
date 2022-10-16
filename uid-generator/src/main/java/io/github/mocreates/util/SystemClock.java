@@ -1,4 +1,4 @@
-package com.github.mocreates.util;
+package io.github.mocreates.util;
 
 import java.sql.Timestamp;
 import java.util.concurrent.Executors;

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.mocreates.jmh;
+package io.github.mocreates.jmh;
 
-import com.github.mocreates.Sequence;
-import com.github.mocreates.config.DefaultSequenceConfig;
+import io.github.mocreates.Sequence;
+import io.github.mocreates.config.DefaultSequenceConfig;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 

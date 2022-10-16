@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.mocreates;
+package io.github.mocreates;
 
-import com.github.mocreates.config.DefaultSequenceConfig;
-import com.github.mocreates.config.SequenceConfig;
-import com.github.mocreates.config.SimpleSequenceConfig;
+import io.github.mocreates.config.DefaultSequenceConfig;
+import io.github.mocreates.config.SequenceConfig;
+import io.github.mocreates.config.SimpleSequenceConfig;
 import org.junit.Assert;
 import org.junit.Test;
 

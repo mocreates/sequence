@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>sequence</artifactId>
-        <groupId>com.github.mocreates</groupId>
+        <groupId>io.github.mocreates</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -26,7 +26,7 @@
             <artifactId>jmh-generator-annprocess</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.github.mocreates</groupId>
+            <groupId>io.github.mocreates</groupId>
             <artifactId>uid-generator</artifactId>
         </dependency>
     </dependencies>

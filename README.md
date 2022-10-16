@@ -82,7 +82,7 @@ CREATE TABLE `worker_node` (
         return new Sequence(defaultSequenceConfig);
     }
 ```
-3. 使用序列器生成ID
+4. 使用序列器生成ID
 ```java
     @Autowired
     private Sequence sequence;

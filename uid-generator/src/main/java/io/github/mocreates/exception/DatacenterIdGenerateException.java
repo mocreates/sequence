@@ -17,7 +17,7 @@ package io.github.mocreates.exception;
 
 /**
  * @author Qimiao Chen
- * @date 2022-10-15 13:53
+ * @since  2022-10-15 13:53
  **/
 public class DatacenterIdGenerateException extends RuntimeException {
 

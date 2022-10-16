@@ -21,7 +21,7 @@ import io.github.mocreates.util.Assert;
  * SequenceConfig
  *
  * @author Qimiao Chen
- * @date 2022-10-15 15:08
+ * @since 2022-10-15 15:08
  **/
 public abstract class SequenceConfig {
 

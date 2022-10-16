@@ -34,7 +34,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * 基于 Snowflake 的增强
  *
  * @author Qimiao Chen
- * @date 2022-10-15 11:09
+ * @since 2022-10-15 11:09
  **/
 public class Sequence {
 
@@ -115,9 +115,7 @@ public class Sequence {
     }
 
 
-    /**
-     * 获取 maxWorkerId
-     */
+
     protected long getMaxWorkerId(long datacenterId, long maxWorkerId) {
         StringBuilder mpid = new StringBuilder();
         mpid.append(datacenterId);
@@ -134,9 +132,7 @@ public class Sequence {
         return (mpid.toString().hashCode() & 0xffff) % (maxWorkerId + 1);
     }
 
-    /**
-     * 数据标识id部分
-     */
+
     protected long getDatacenterId(long maxDatacenterId) {
         long id = 0L;
         try {

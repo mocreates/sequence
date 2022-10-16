@@ -21,7 +21,7 @@ import java.net.InetAddress;
  * SimpleSequenceConfig
  *
  * @author Qimiao Chen
- * @date 2022-10-15 15:48
+ * @since 2022-10-15 15:48
  **/
 public class SimpleSequenceConfig extends SequenceConfig {
 

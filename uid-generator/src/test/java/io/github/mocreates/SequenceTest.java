@@ -30,7 +30,7 @@ import java.util.concurrent.*;
 
 /**
  * @author Qimiao Chen
- * @date 2022-10-15 16:28
+ * @since 2022-10-15 16:28
  **/
 
 public class SequenceTest {

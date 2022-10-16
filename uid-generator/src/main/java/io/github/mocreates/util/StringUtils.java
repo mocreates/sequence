@@ -20,7 +20,7 @@ package io.github.mocreates.util;
  * StringUtils
  *
  * @author Qimiao Chen
- * @date 2022-10-15 11:09
+ * @since 2022-10-15 11:09
  **/
 public abstract class StringUtils {
 

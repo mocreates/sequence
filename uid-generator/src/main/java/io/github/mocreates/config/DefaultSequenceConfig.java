@@ -22,7 +22,7 @@ import io.github.mocreates.util.Assert;
  * 显式指定 workId datacenterId
  *
  * @author Qimiao Chen
- * @date 2022-10-15 15:46
+ * @since 2022-10-15 15:46
  **/
 public class DefaultSequenceConfig extends SequenceConfig {
 

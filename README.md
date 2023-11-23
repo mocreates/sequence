@@ -36,7 +36,8 @@
 * `io.github.mocreates.config.DefaultSequenceConfig`
 * `io.github.mocreates.config.SimpleSequenceConfig`
 
-前者需要手动指定 workerId、datacenterId，可以结合数据库来使用，后者是利用网卡信息进行自适应
+前者需要手动指定 workerId、datacenterId，可以结合数据库来使用，后者是利用网卡信息进行自适应。
+推荐使用默认配置类，网卡mac地址可人为伪造，加之虚拟化的发展，其唯一性已经无法保证，有概率重复。
 
 #### 详情
 | 字段名           | 释义                                                   | 默认值         |

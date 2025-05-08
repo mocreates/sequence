@@ -8,6 +8,8 @@
         <version>3.0-RELEASE</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+    <version>${project.version}</version>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>jmh</artifactId>

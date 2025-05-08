@@ -39,11 +39,7 @@ jobs:
           CENTRAL_TOKEN_USERNAME: ${{ secrets.CENTRAL_TOKEN_USERNAME }}
           CENTRAL_TOKEN_PASSWORD: ${{ secrets.CENTRAL_TOKEN_PASSWORD }}
         run: |
-          mvn install -DskipTests \
+          mvn -B -X deploy -DskipTests \
             --settings ./.github/maven/settings.xml \
           -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }}
           
-          cd uid-generator  # 进入子模块目录
-          mvn -B -X clean deploy -Dmaven.test.skip=true \
-            --settings ../.github/maven/settings.xml \
-          -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }}

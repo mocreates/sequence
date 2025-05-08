@@ -155,4 +155,10 @@
             </activation>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <url>https://central.sonatype.com/api/v1/publish</url>
+        </repository>
+    </distributionManagement>
 </project>

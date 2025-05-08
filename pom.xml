@@ -92,6 +92,13 @@
                         <version>1.7.0</version>
                         <extensions>true</extensions>
                         <configuration>
+                            <!-- 强制使用 UTF-8 编码传输 -->
+                            <httpHeaders>
+                                <httpHeader>
+                                    <name>Content-Encoding</name>
+                                    <value>UTF-8</value>
+                                </httpHeader>
+                            </httpHeaders>
                             <serverId>ossrh</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>

@@ -1,4 +1,7 @@
 name: Publish uid-generator to Maven Central
+env:
+  LANG: en_US.UTF-8
+  LC_ALL: en_US.UTF-8
 
 on:
   push:

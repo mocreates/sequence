@@ -12,34 +12,34 @@
 
     <artifactId>uid-generator</artifactId>
 
-    <description>Id generator based on snowflake algorithm with stronger capability.</description>
-    <url>https://github.com/mocreates/sequence</url>
+<!--    <description>Id generator based on snowflake algorithm with stronger capability.</description>-->
+<!--    <url>https://github.com/mocreates/sequence</url>-->
 
 
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
+<!--    <licenses>-->
+<!--        <license>-->
+<!--            <name>The Apache Software License, Version 2.0</name>-->
+<!--            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>-->
+<!--        </license>-->
+<!--    </licenses>-->
 
-    <developers>
-        <developer>
-            <id>chenqimiao</id>
-            <name>Qimio Chen</name>
-            <email>chenqimiao1994@126.com</email>
-            <roles>
-                <role>Project Manager</role>
-                <role>Architect</role>
-            </roles>
-            <timezone>+8</timezone>
-        </developer>
-    </developers>
-    <scm>
-        <connection>https://github.com/mocreates/sequence.git</connection>
-        <developerConnection>scm:git@github.com:mocreates/sequence.git</developerConnection>
-        <url>https://github.com/mocreates/sequence</url>
-    </scm>
+<!--    <developers>-->
+<!--        <developer>-->
+<!--            <id>chenqimiao</id>-->
+<!--            <name>Qimio Chen</name>-->
+<!--            <email>chenqimiao1994@126.com</email>-->
+<!--            <roles>-->
+<!--                <role>Project Manager</role>-->
+<!--                <role>Architect</role>-->
+<!--            </roles>-->
+<!--            <timezone>+8</timezone>-->
+<!--        </developer>-->
+<!--    </developers>-->
+<!--    <scm>-->
+<!--        <connection>https://github.com/mocreates/sequence.git</connection>-->
+<!--        <developerConnection>scm:git@github.com:mocreates/sequence.git</developerConnection>-->
+<!--        <url>https://github.com/mocreates/sequence</url>-->
+<!--    </scm>-->
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

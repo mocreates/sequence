@@ -7,15 +7,15 @@
     <groupId>io.github.mocreates</groupId>
     <artifactId>sequence</artifactId>
     <packaging>pom</packaging>
-    <version>2.0-RELEASE</version>
+    <version>3.0-RELEASE</version>
     <modules>
         <module>uid-generator</module>
         <module>jmh</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
     <name>sequence</name>
@@ -59,12 +59,12 @@
             <dependency>
                 <groupId>org.openjdk.jmh</groupId>
                 <artifactId>jmh-core</artifactId>
-                <version>1.35</version>
+                <version>1.37</version>
             </dependency>
             <dependency>
                 <groupId>org.openjdk.jmh</groupId>
                 <artifactId>jmh-generator-annprocess</artifactId>
-                <version>1.35</version>
+                <version>1.37</version>
             </dependency>
             <dependency>
                 <groupId>io.github.mocreates</groupId>

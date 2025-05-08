@@ -7,7 +7,7 @@
     <groupId>io.github.mocreates</groupId>
     <artifactId>sequence</artifactId>
     <packaging>pom</packaging>
-    <version>3.0-RELEASE</version>
+    <version>3.0.0-RELEASE</version>
     <modules>
         <module>uid-generator</module>
         <module>jmh</module>

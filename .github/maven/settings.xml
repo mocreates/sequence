@@ -1,18 +1,9 @@
 <settings>
     <servers>
         <server>
-            <id>ossrh</id>  <!-- 与 pom.xml 中的 repository id 对应 -->
-            <username>${env.OSSRH_USERNAME}</username>
-            <password>${env.OSSRH_PASSWORD}</password>
+            <id>central</id>
+            <username>${env.CENTRAL_TOKEN_USERNAME}</username>
+            <password>${env.CENTRAL_TOKEN_PASSWORD}</password>
         </server>
     </servers>
-    <profiles>
-        <profile>
-            <id>gpg</id>
-            <properties>
-                <gpg.executable>gpg</gpg.executable>
-                <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
-            </properties>
-        </profile>
-    </profiles>
 </settings>

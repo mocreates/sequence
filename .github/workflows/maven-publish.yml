@@ -32,8 +32,7 @@ jobs:
           echo "$GPG_PRIVATE_KEY" | gpg --batch --import
           # 配置信任级别
           echo "trust-model tofu" >> ~/.gnupg/gpg.conf
-          echo "tofu-default-policy good" >> ~/.gnupg/gpg.conf      
-
+          echo "tofu-default-policy good" >> ~/.gnupg/gpg.conf
       - name: Deploy to Central Portal
         env:
           CENTRAL_TOKEN_USERNAME: ${{ secrets.CENTRAL_TOKEN_USERNAME }}

@@ -7,7 +7,7 @@
     <groupId>io.github.mocreates</groupId>
     <artifactId>sequence</artifactId>
     <packaging>pom</packaging>
-    <version>3.0.0-RELEASE</version>
+    <version>{project.version}</version>
     <modules>
         <module>uid-generator</module>
         <module>jmh</module>
@@ -17,7 +17,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
-        <project.version>3.0-RELEASE</project.version>
+        <project.version>3.0.1-RELEASE</project.version>
     </properties>
 
     <name>sequence</name>

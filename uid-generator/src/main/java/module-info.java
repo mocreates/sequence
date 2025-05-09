@@ -8,4 +8,5 @@ module com.github.mocreates {
 
     exports io.github.mocreates.config;
     exports io.github.mocreates.exception;
+    exports io.github.mocreates;
 }
